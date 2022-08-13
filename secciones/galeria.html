@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,12 +35,14 @@
         </nav>
     </header>
 
-
-    <section class="foto1">
+    <section class="fotos" data-aos="flip-up" data-aos-duration="1500">
         <img src="../imagenes/Marte.jpg" alt="Marte"  width="850" height="500">
     </section>
-    <section class="foto2">
+    <section class="fotos" data-aos="flip-up" data-aos-duration="1500">
         <img src="../imagenes/kepler2.png" alt="Kepler"  width="850" height="500">
+    </section>
+    <section class="fotos" data-aos="flip-up" data-aos-duration="1500">
+        <img src="../imagenes/metalLuna.png" alt="Metal en la luna" width="850" height="500">
     </section>
 
     <footer>
@@ -49,5 +53,8 @@
             <img src="../imagenes/icons8-youtube.svg" alt="Youtube">
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,16 +41,25 @@
         </h1>
     </section>
     <section class="forotexto">
-        <section>
+        <section class="posteos" data-aos="fade-up"
+        data-aos-duration="3000">>
             <h2>
                 <label for="Discusion">Vida en Marte?</label> <br>
-                    <textarea type="text" name="Discusion"></textarea> <br>
+                    <textarea type="text" name="Discusion" style="width: 850px; height: 300px;"></textarea> <br>
             </h2>
         </section>
-        <section>
+        <section class="posteos" data-aos="fade-up"
+        data-aos-duration="3000">>
             <h2>
                 <label for="Discusion2">Es posible viajar a la velocidad de la luz?</label> <br>
-                    <textarea type="text" name="Discusion2"></textarea> <br>
+                    <textarea type="text" name="Discusion2" style="width: 850px; height: 300px;"></textarea> <br>
+            </h2>
+        </section>
+        <section class="posteos" data-aos="fade-up"
+        data-aos-duration="3000">>
+            <h2>
+                <label for="Discusion3">La extracción de metales en la luna, es riesgoso?</label> <br>
+                <textarea name="text" id="Discusion3" style="width: 850px; height: 300px;"></textarea> <br>
             </h2>
         </section>
     </section>
@@ -61,5 +72,8 @@
             <img src="../imagenes/icons8-youtube.svg" alt="Youtube">
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
