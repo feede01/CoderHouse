@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="noticias.html">NOTICIAS</a>
+                </li>
+                <li>
+                    <a href="foro.html">FORO</a>
+                </li>
+                <li>
+                    <a href="galeria.html">GALERÍA</a>
+                </li>
+                <li>
+                    <a href="acercaDe.html">ACERCA DE</a>
+                </li>
+                <li>
+                    <a href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+    </main>
+
+    <section>
+        <article>
+            <form class="contact">
+                <label for="NombreYApellido">Nombre y apellido:</label>
+                <input type="text" name="NombreYApellido"/> <br>
+                <label for="Mail">Mail:</label>
+                <input type="text" name="Mail"/> <br>
+                <div>Hombre</div>
+                <input type="radio" name="sexo" value="Hombre"/>
+                <div>Mujer</div>
+                <input type="radio" name="sexo" value="Mujer"> <br>
+                <label for=""></label>
+                <h3>Tipo documento</h3>
+                <div>DNI</div>
+                <input type="radio" name="TDni" value="DNI"/>
+                <div>Pasaporte</div>
+                <input type="radio" name="TDni" value="Pasaporte">
+                <div>Cedula</div>
+                <input type="radio" name="TDni" value="Cedula"> <br>
+                <label for="Mensaje">Mensaje que quiera dejar:</label> <br>
+                <textarea type="text" name="Mensaje"></textarea> <br>
+                <div>Acepta términos y condiciones</div>
+                <input type="checkbox" name="acepta" value="1"/> <br>
+                <input type="submit" value="Enviar formulario"/>
+                <input type="reset" value="Borrar formulario"/>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <div>
+            <img src="../imagenes/icons8-facebook-nuevo.svg" alt="Facebook">
+            <img src="../imagenes/icons8-instagram.svg" alt="Instagram">
+            <img src="../imagenes/icons8-viejo-logotipo-de-twitter.svg" alt="Twitter">
+            <img src="../imagenes/icons8-youtube.svg" alt="Youtube">
+        </div>
+    </footer>
+</body>
+</html>
