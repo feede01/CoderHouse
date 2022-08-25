@@ -1,0 +1,49 @@
+@import "fuentes";
+@import "generales";
+@import "resoluciones";
+
+.textoSubtitulo{
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.Titulo{
+    margin-right: 400px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+
+article{
+    color: white;
+}
+
+.textoSecciones{
+    color: white;
+}
+
+.noticia1{
+    padding: 20px;
+    margin: 25px 40px 25px 40px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.noticia2{
+    padding: 20px;
+    margin: 25px 40px 25px 40px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.noticia3{
+    padding: 20px;
+    margin: 25px 40px 25px 40px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.subrayado{
+    text-decoration: underline;
+    color: cyan;
+}
