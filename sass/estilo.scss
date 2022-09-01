@@ -13,37 +13,27 @@
     margin-left: 60px;
 }
 
-
-article{
-    color: white;
-}
-
-.textoSecciones{
-    color: white;
-}
-
-.noticia1{
-    padding: 20px;
-    margin: 25px 40px 25px 40px;
-    border-radius: 10px;
-    border: 5px solid white;
-}
-
-.noticia2{
-    padding: 20px;
-    margin: 25px 40px 25px 40px;
-    border-radius: 10px;
-    border: 5px solid white;
-}
-
-.noticia3{
-    padding: 20px;
-    margin: 25px 40px 25px 40px;
-    border-radius: 10px;
-    border: 5px solid white;
-}
-
 .subrayado{
     text-decoration: underline;
     color: cyan;
+}
+
+@mixin noticiasConfig ($padding, $margin, $border-radius, $border){
+    padding: $padding;
+    margin: $margin;
+    border-radius: $border-radius;
+    border: $border;
+}
+
+.noticiasMixin{
+    @include noticiasConfig(20px, 25px 40px 25px 40px, 10px, 5px solid white);
+}
+
+@mixin articleYTexto ($colorArt, $colorTex){
+    color: $colorArt;
+    color: $colorTex;
+}
+
+article, .textoSecciones{
+    @include articleYTexto(white, white);
 }
