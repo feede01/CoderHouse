@@ -2,10 +2,12 @@
 @import "generales";
 @import "resoluciones";
 
-.textoSubtitulo{
+.textoSubtitulo {
     color: whitesmoke;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0%;
+    text-align: left;
+  }
 
 .Titulo{
     margin-right: 400px;
@@ -16,7 +18,15 @@
 .subrayado{
     text-decoration: underline;
     color: cyan;
+    cursor: pointer;
 }
+
+.subrayado-left{
+    text-decoration: underline;
+    color: cyan;
+    cursor: pointer;
+    text-align: left;
+  }
 
 @mixin noticiasConfig ($padding, $margin, $border-radius, $border){
     padding: $padding;

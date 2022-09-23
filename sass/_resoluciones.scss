@@ -106,6 +106,28 @@ footer{
     }
 }
 
+@media screen and (max-width:768px) {
+    .contenedorVideos{
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      grid-template-rows: 200px;
+    }
+  }
+  
+  @media screen and (max-width:500px) {
+    .contenedorVideos{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .contenedorVideos{
+      height: 200px;
+    }
+  
+  }
+
+
 .contact{
     text-align: left;
 }
