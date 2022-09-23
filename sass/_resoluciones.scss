@@ -14,20 +14,19 @@ footer{
     grid-area: footer;
 }
 
-
 .principal{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap:15px;
     justify-items:left;
-    border: 8px solid white;
+    border: 8px solid #212529;
 }
 
 .imagenm {
     width: 450px;
     height: 250px;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 @media (min-width:500px){
@@ -103,7 +102,7 @@ footer{
     .imagenm{
         width: 500px;
         height: 400px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 }
 
